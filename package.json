@@ -1,0 +1,34 @@
+{
+  "name": "zee-invoices",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start:dev": "NODE_ENV='development' node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.0.1",
+    "antd": "^5.0.3",
+    "color-thief-react": "^2.1.0",
+    "country-data": "^0.0.31",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "formik": "^2.2.9",
+    "moment": "^2.29.4",
+    "next": "13.0.5",
+    "next-auth": "^4.18.6",
+    "react": "18.2.0",
+    "react-color": "2.17.2",
+    "react-dom": "18.2.0",
+    "react-flags-select": "^2.2.3",
+    "react-phone-input-2": "^2.15.1",
+    "styled-components": "^5.3.6",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
+  }
+}
