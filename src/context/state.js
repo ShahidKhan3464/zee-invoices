@@ -3,8 +3,8 @@ import { createContext, useContext, useState } from "react";
 const AppContext = createContext()
 
 export function AppWrapper({ children }) {
-  const [dueDateField, setDueDateField] = useState(true)
   const [sidebarVisibal, setSidebarVisibal] = useState(true)
+  const [dueDateField, setDueDateField] = useState(true)
   const [defaultColor, setDefaultColor] = useState("#333333")
   const [invoiceTaxField, setInvoiceTaxField] = useState(true)
 
