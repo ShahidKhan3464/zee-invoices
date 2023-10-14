@@ -1,3 +1,9 @@
 {
+  "baseUrl": ".",
+  "paths": {
+    "@/components/*": [
+      "components/*"
+    ]
+  },
   "extends": "next/core-web-vitals"
 }
